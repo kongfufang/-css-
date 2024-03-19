@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	outline: none;
+	background-color: rgb(253, 253, 253);
+
+}
+
+.box {
+	width: 1472.8px;
+	height: 1625px;
+}
+
+.header {
+	background: url('../images/bg.jpg') no-repeat;
+	width: 980px;
+	height: 617px;
+	margin: 0 auto;
+	padding-top: 10px
+}
+
+.header .nav {
+	background: url('../images/nav.png') no-repeat;
+	height: 46px;
+	padding: 40px 0 0 123px;
+}
+
+.nav a {
+	margin-left: 50px;
+	text-decoration: none;
+	color: black;
+}
+
+.margin_more {
+	margin-right: 220px;
+}
+
+.dynamic {
+	width: 980px;
+	height: 270px;
+	background: url('../images/dongtai.jpg') 60px top no-repeat;
+	margin: 18px auto;
+	padding-top: 123px;
+	display: flex;
+	justify-content: space-around
+}
+
+.img {
+	width: 294px;
+	height: 50px;
+}
+
+.img h2 {
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	padding-left: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.img .one {
+	width: 284px;
+	height: 70px;
+	line-height: 20px;
+	padding: 10px 0 0 10px;
+	color: #bbb;
+	font-size: 12px;
+}
+
+.img .two {
+	background-image: url('../images/yinying.jpg');
+	width: 294px;
+	height: 5px;
+}
+
+.example {
+	width: 980px;
+	height: 250px;
+	background: url('../images/xinshang.jpg') no-repeat;
+	margin: 0 auto;
+	padding-top: 170px;
+}
+
+.example .img {
+	height: 216px;
+	width: 916px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer {
+	width: 980px;
+	background: url('../images/footer_bg.jpg');
+	height: 80px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 80px;
+	color: #fff;
+}
+
+.erweima {
+	position: fixed;
+	right: 20px;
+	bottom: 30px;
+	z-index: 999;
+
+}
+
+.erweima img {
+	width: 100px;
+	height: auto;
+}
